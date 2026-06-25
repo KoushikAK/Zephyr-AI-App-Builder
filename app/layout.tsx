@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { DM_Sans, Lora, Geist } from "next/font/google";
+import { Lora, Geist } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Header from "@/components/Header";
 import { ClerkProvider } from "@clerk/nextjs";
-import PremiumBackground from "@/components/backgrounds/PremiumBackground";
 import { cn } from "@/lib/utils";
 
 const lora = Lora({
